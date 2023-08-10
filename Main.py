@@ -24,7 +24,7 @@ def newFD():
     emp_id_count = {}
     cap = cv2.VideoCapture(0)
 
-    file = open('C:/Users/Kishan/Desktop/final/face_detection/newEncodeFile12.p', 'rb')
+    file = open('keku42/face_detection/newEncodeFile12.p', 'rb')
     encodewithID = pickle.load(file)
     file.close()
     encodelistknown, empID = encodewithID
